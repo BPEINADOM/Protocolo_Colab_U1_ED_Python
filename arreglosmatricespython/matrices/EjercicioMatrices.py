@@ -1,0 +1,14 @@
+# Creamos una matriz de 3 filas y 3 columnas
+matriz = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+# Mostramos la matriz
+print("Matriz de 3x3:")
+
+for i in range(len(matriz)):
+    for j in range(len(matriz[i])):
+        print(matriz[i][j], end=" ")
+    print()
