@@ -14,3 +14,16 @@ print("Arreglo generado:")
 
 for i in range(len(numeros)):
     print(numeros[i], end=" ")
+
+# Recorrido con for clásico
+print("\nRecorrido con for clásico:")
+
+for i in range(len(numeros)):
+    print(numeros[i], end=" ")
+
+
+# Recorrido con for-each
+print("\nRecorrido con for-each:")
+
+for numero in numeros:
+    print(numero, end=" ")
