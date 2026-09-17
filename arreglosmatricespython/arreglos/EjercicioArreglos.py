@@ -15,7 +15,7 @@ print("Arreglo generado:")
 for i in range(len(numeros)):
     print(numeros[i], end=" ")
 
-    
+
 
 # Recorrido con for clásico
 print("\nRecorrido con for clásico:")
@@ -44,3 +44,21 @@ print("\nArreglo modificado:")
 
 for i in range(len(numeros)):
     print(numeros[i], end=" ")
+
+
+# Solicitamos el valor que queremos buscar
+valor_buscar = int(input("\nIngrese el valor que desea buscar: "))
+
+# Variable para saber si encontramos el valor
+encontrado = False
+
+# Realizamos la búsqueda lineal
+for i in range(len(numeros)):
+    if numeros[i] == valor_buscar:
+        print("Valor encontrado en la posición", i)
+        encontrado = True
+        break
+
+# Si no encontramos el valor
+if not encontrado:
+    print("Valor no encontrado.")
