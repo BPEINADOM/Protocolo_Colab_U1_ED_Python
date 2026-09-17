@@ -1,0 +1,16 @@
+import random
+
+# Creamos un arreglo de 10 posiciones
+numeros = [0] * 10
+
+# Generamos un valor aleatorio para cada posición
+for i in range(len(numeros)):
+
+    # Generamos un número aleatorio entre 1 y 50
+    numeros[i] = random.randint(1, 50)
+
+# Mostramos el arreglo generado
+print("Arreglo generado:")
+
+for i in range(len(numeros)):
+    print(numeros[i], end=" ")
