@@ -12,3 +12,20 @@ for i in range(len(matriz)):
     for j in range(len(matriz[i])):
         print(matriz[i][j], end=" ")
     print()
+
+# Recorrido por filas
+print("\nRecorrido por filas:")
+
+for i in range(len(matriz)):
+    for j in range(len(matriz[i])):
+        print(matriz[i][j], end=" ")
+    print()
+
+
+# Recorrido por columnas
+print("\nRecorrido por columnas:")
+
+for j in range(len(matriz[0])):
+    for i in range(len(matriz)):
+        print(matriz[i][j], end=" ")
+    print()
