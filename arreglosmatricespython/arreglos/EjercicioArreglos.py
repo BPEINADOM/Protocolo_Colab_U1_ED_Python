@@ -15,15 +15,32 @@ print("Arreglo generado:")
 for i in range(len(numeros)):
     print(numeros[i], end=" ")
 
+    
+
 # Recorrido con for clásico
 print("\nRecorrido con for clásico:")
 
 for i in range(len(numeros)):
     print(numeros[i], end=" ")
 
-
 # Recorrido con for-each
 print("\nRecorrido con for-each:")
 
 for numero in numeros:
     print(numero, end=" ")
+
+
+# Cambiamos los valores impares por cero
+for i in range(len(numeros)):
+    if numeros[i] % 2 != 0:
+        numeros[i] = 0
+
+# Multiplicamos cada valor por su índice
+for i in range(len(numeros)):
+    numeros[i] = numeros[i] * i
+
+# Mostramos el arreglo modificado
+print("\nArreglo modificado:")
+
+for i in range(len(numeros)):
+    print(numeros[i], end=" ")
